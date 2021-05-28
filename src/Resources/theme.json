@@ -1,0 +1,29 @@
+{
+  "name": "PtmTheme",
+  "author": "jproxx GmbH & Co. KG",
+  "views": [
+    "@Storefront",
+    "@Plugins",
+    "@PtmTheme"
+  ],
+  "style": [
+    "app/storefront/src/scss/overrides.scss",
+    "@Storefront",
+    "app/storefront/src/scss/base.scss"
+  ],
+  "script": [
+    "@Storefront",
+    "app/storefront/dist/storefront/js/ptm-theme.js"
+  ],
+  "asset": [
+    "@Storefront",
+    "app/storefront/src/assets"
+  ],
+  "config": {
+    "fields": {
+      "sw-color-brand-primary": {
+        "value": "#e04f48"
+      }
+    }
+  }
+}

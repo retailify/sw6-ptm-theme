@@ -1,0 +1,23 @@
+{
+  "name": "jproxx/pleasetomeet-theme",
+  "description": "jproxx Theme for pleasedtomeet.de",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "jproxx GmbH & Co. KG"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "PtmTheme\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "PtmTheme\\PtmTheme",
+    "label": {
+      "de-DE": "pleasedtomeet Theme",
+      "en-GB": "pleasedtomeet Theme"
+    }
+  }
+}
